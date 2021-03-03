@@ -128,7 +128,7 @@ class ViewController: UIViewController {
         
         timer.prefix((initialLabelNumber - 1) + (self.texts.count - initialLabelNumber) + extraSpaceInBottom)
             .sink {_ in
-            print("tick")
+
             self.moveLinesUp()
             
             if self.lineIndex < self.texts.count {

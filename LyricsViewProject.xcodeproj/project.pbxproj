@@ -13,6 +13,8 @@
 		54D8221B25EE9E4500A4C5D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D8221925EE9E4500A4C5D1 /* Main.storyboard */; };
 		54D8221D25EE9E4500A4C5D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D8221C25EE9E4500A4C5D1 /* Assets.xcassets */; };
 		54D8222025EE9E4500A4C5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D8221E25EE9E4500A4C5D1 /* LaunchScreen.storyboard */; };
+		54D8235025EFA53D00A4C5D1 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8234E25EFA53D00A4C5D1 /* AViewController.swift */; };
+		54D8235125EFA53D00A4C5D1 /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D8234F25EFA53D00A4C5D1 /* AViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		54D8221C25EE9E4500A4C5D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54D8221F25EE9E4500A4C5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54D8222125EE9E4500A4C5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D8234E25EFA53D00A4C5D1 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		54D8234F25EFA53D00A4C5D1 /* AViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				54D8221C25EE9E4500A4C5D1 /* Assets.xcassets */,
 				54D8221E25EE9E4500A4C5D1 /* LaunchScreen.storyboard */,
 				54D8222125EE9E4500A4C5D1 /* Info.plist */,
+				54D8234E25EFA53D00A4C5D1 /* AViewController.swift */,
+				54D8234F25EFA53D00A4C5D1 /* AViewController.xib */,
 			);
 			path = LyricsViewProject;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D8235125EFA53D00A4C5D1 /* AViewController.xib in Resources */,
 				54D8222025EE9E4500A4C5D1 /* LaunchScreen.storyboard in Resources */,
 				54D8221D25EE9E4500A4C5D1 /* Assets.xcassets in Resources */,
 				54D8221B25EE9E4500A4C5D1 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D8235025EFA53D00A4C5D1 /* AViewController.swift in Sources */,
 				54D8221825EE9E4500A4C5D1 /* ViewController.swift in Sources */,
 				54D8221425EE9E4500A4C5D1 /* AppDelegate.swift in Sources */,
 				54D8221625EE9E4500A4C5D1 /* SceneDelegate.swift in Sources */,
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6HRLMQGMGT;
 				INFOPLIST_FILE = LyricsViewProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6HRLMQGMGT;
 				INFOPLIST_FILE = LyricsViewProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
